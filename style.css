@@ -1,0 +1,177 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: pink;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  margin: 0;
+ text-align: center;
+}
+
+nav li {
+  color: green;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  width: 80px;
+  
+}
+nav li a{  
+  color: green;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 5px;
+  
+
+}
+
+main h1 {
+  color: #ffff;
+font-family: "Comic Sans MS", "Comic Sans", bold;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: orange;
+  color: black;
+  padding: 10px 0;
+}
+
+footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+
+
+
+}
+
+.jumbotron {
+  height: 800px;
+  background-image: url("https://media.wired.com/photos/5c3666949bc98c4c7667c08b/master/w_2240,c_limit/Your%20Old%20Tweets%20Are%20Giving%20Away%20More%20Location%20Data%20GettyImages-AA014087.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-main {
+  background-color: green;
+  color: yellow;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  margin-bottom: 20px;      
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+     background-image: url('https://pbs.twimg.com/media/FyRbSSfaUAETIoX?format=jpg&name=4096x4096');
+     background-repeat: repeat;
+    background-size: 130px 120px;
+}
+
+.supporting .col {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  padding: 60px 10px;
+  vertical-align: top;
+  margin: 0;
+
+ 
+
+
+}
+
+.supporting img {
+  height: 100px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333; 
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+
+
+}
